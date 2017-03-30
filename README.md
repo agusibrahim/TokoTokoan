@@ -31,7 +31,7 @@ RecyclerView juga diterapkan pada Scroll Horizontal produk (LinearLayoutManager 
 O iya, Coding/Build langsung di Android menggunakan AIDE
 
 ## Download Demo
-[Download TokoTokoan ](https://xxxz)
+ [Download TokoTokoan ](https://github.com/agusibrahim/TokoTokoan/blob/master/app/tokotokoan.apk?raw=true)
 
 
 ## BUG
