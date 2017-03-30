@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:clickable="true"
+	android:background="?attr/selectableItemBackground"
+	android:paddingLeft="5dp"
+	android:paddingBottom="10dp"
+	android:paddingTop="10dp">
+
+	<ImageView
+		android:layout_height="@dimen/y75"
+		android:layout_width="@dimen/x75"
+		android:src="@drawable/ic_cat1"
+		android:antialias="true"
+		android:layout_marginLeft="5dp"
+		android:id="@+id/itemcardImageView1"
+		android:layout_centerVertical="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Produk Lainnya"
+		android:layout_toRightOf="@id/itemcardImageView1"
+		android:layout_marginLeft="7dp"
+		android:layout_centerVertical="true"
+		android:id="@+id/itemcardTextView1"
+		android:layout_gravity="center_vertical"
+		android:textSize="@dimen/x30"/>
+
+	<View
+		android:background="#CECECE"
+		android:layout_height="35dp"
+		android:layout_width="1dp"
+		android:layout_alignParentRight="true"
+		android:id="@+id/itemcardView1"/>
+
+</RelativeLayout>
+

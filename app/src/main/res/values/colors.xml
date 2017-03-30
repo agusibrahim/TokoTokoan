@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <color name="colorPrimaryDark">#388E3C</color> <!-- [ GREEN - 700 ] -->
+   <color name="colorPrimary">#4CAF50</color> <!-- [ GREEN - 500 ] -->
+   <color name="colorPrimaryLight">#C8E6C9</color> <!-- [ GREEN - 100 ] -->
+   <color name="colorAccent">#43A047</color> <!-- [ GREEN - 600 ] -->
+
+   <color name="textColorPrimary">#212121</color>
+   <color name="textColorSecondary">#727272</color>
+
+   <color name="text">#FFFFFF</color>
+   <color name="icons">#FFFFFF</color>
+   <color name="divider">#B6B6B6</color>
+
+   <color name="colorControlNormal">@color/textColorSecondary</color>
+   <color name="colorControlActivated">@color/colorAccent</color>
+   <color name="colorControlHighlight">@color/divider</color>
+
+   <!--
+   <color name="colorButtonNormal">#19C1B2</color>
+   <color name="colorSwitchThumbNormal">#19C1B2</color>
+   <color name="navigationBarColor">@color/colorPrimaryDark</color>
+   -->
+
+   <color name="windowBackground">#DDDDDD</color>
+   <color name="lightBackground">#E0E0E0</color>
+   <color name="darkBackground">#424242</color>
+   <color name="drawerBackground">#FFfafafa</color>
+   <color name="rowBackground">#F2F2F2</color>
+
+</resources>

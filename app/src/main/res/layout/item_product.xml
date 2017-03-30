@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0"
+		android:background="#FFFFFF">
+
+		<com.loopj.android.image.SmartImageView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:id="@+id/itemproductImageView1"
+			android:layout_margin="10dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="15%"
+			android:textColor="#FFFFFF"
+			android:background="@drawable/box_discount"
+			android:layout_margin="10dp"
+			android:padding="5dp"
+			android:layout_gravity="right|end"
+			android:id="@+id/itemproductTextViewDisc"/>
+
+	</FrameLayout>
+
+	<LinearLayout
+		android:layout_height="0dp"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:background="#FFFFFF">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Raspberry Pi 3 Quad-Core 1GB RAM"
+			android:layout_marginTop="10dp"
+			android:gravity="center"
+			android:textColor="#3E3E3E"
+			android:id="@+id/itemproductTextViewName"
+			android:maxLines="2"
+			android:minLines="2"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Rp 540.000"
+			android:textStyle="bold"
+			android:textColor="#E53D0C"
+			android:id="@+id/itemproductTextViewPrice"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Rp 610.000"
+			android:textColor="#919191"
+			android:id="@+id/itemproductTextViewPold"/>
+
+		<RatingBar
+			style="?android:attr/ratingBarStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:layout_gravity="center"
+			android:backgroundTint="@android:color/black"
+			android:numStars="5"
+			android:progressTint="#ffd700"
+			android:rating="0"
+			android:secondaryProgressTint="#FFF6B0"
+			android:stepSize="0.5"
+			android:id="@+id/itemproductRatingBar1"/>
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal"
+				android:layout_centerHorizontal="true"
+				android:layout_alignParentBottom="true"
+				android:layout_marginBottom="10dp">
+
+				<ImageView
+					android:layout_height="20dp"
+					android:layout_width="20dp"
+					android:src="@drawable/ic_store_black"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="Elektron Robotic"
+					android:textColor="#2F2F2F"
+					android:layout_marginLeft="10dp"
+					android:id="@+id/itemproductTextViewStore"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
